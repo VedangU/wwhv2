@@ -1,1 +1,1 @@
-web: gunicorn wwh.wsgi --log-file -
+web: gunicorn wwhv2.wsgi --log-file -
