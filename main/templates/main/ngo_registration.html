@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world without hunger</title>
+    <link rel="stylesheet " href="{% static 'theme/css/utility.css' %}">
+    <link rel="stylesheet" href="{% static 'theme/css/style.css' %}">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="nav-left">
+            <h1>WORLD WITHOUT HUNGER</h1>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="contact.html">contact us</a> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="register max-width-1 m-auto">
+        <h2>REQUEST FOR FOOD</h2><br><br>
+        <form id="register" action="#" method="POST" target="_blank" autocomplete="on">
+            <section value label="registerd name" class="same" color="same" type="text">
+                <section class="tab" width="100%">
+                    <input type="text" width="100%" autocomplete="on" placeholder="Full Name" required>
+                </section>
+
+
+            </section>
+            <section value label="registerd email " class="same">
+                <section class="tab" width="100%">
+                    <input type="email" id="email" placeholder="Enter your valid email " required>
+                </section>
+
+            </section>
+            <section value label="registerd adress" class="same">
+                <section class="tab" width="100%">
+                    <input type="adress" id="adress" placeholder="Enter Address " required>
+                </section>
+
+            </section>
+            <div class="citypin">
+                <div class="city">
+                    <section value label="city" class="same" type="text" color="white">
+                        <section class="tab" width="100%">
+                            <input type=" text" id="city" placeholder="City" required>
+
+                        </section>
+
+                    </section>
+
+                </div>
+                <div class="pin">
+                    <section value label="pin" class="same" type="text" color="white">
+                        <section class="tab" width="100%">
+                            <input type=" text" id="pincode" placeholder="Pin-Code" pattern="[0-9]{3}-[0-9]{3}"
+                                maxlength="6" required>
+
+                        </section>
+
+                    </section>
+
+                </div>
+
+            </div>
+            <div class="contact">
+                <div class="maincontact">
+                    <section value label="contact" class="same" type="text" color="white">
+                        <section class="tab" width="100%">
+                            <input type="text" id="maincontact" placeholder="Contact Number" maxlength="10" required>
+
+                        </section>
+
+                    </section>
+                </div>
+                <div class="alternativecontact">
+                    <section value label="contact" class="same" type="text" color="white">
+                        <section class="tab" width="100%">
+                            <input type=" text" id="alternumber" placeholder="Alternative Number" maxlength="10"
+                                required>
+
+                        </section>
+
+                    </section>
+
+                </div>
+            </div>
+            <br>
+            <div class="feedback">
+                <h6 class="heading">Anything you would like for us to know </h6>
+                <section value lable="write detail here" color="white" rows="5" class="opinion">
+                    <textarea width="100%" rows="5" tabindex="1" class=areatowrite
+                        placeholder="Write detail here"></textarea>
+
+
+                </section>
+
+            </div>
+            <button type="submit" id="button" class="submitbutton" tabindex="0" aria-disabled="false">
+                <span class="submitext">submit</span>
+            </button>
+        </form>
+    </div>
+    <div class="footer  ">
+        <p>Copyright &copy;feedingindia.org</p>
+        <a href="https://www.feedingindia.org/">feedingindia</a>
+    </div>
+</body>
+
+</html>

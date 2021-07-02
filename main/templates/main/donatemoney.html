@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world without hunger</title>
+    <link rel="stylesheet " href="{% static 'theme/css/utility.css' %}">
+    <link rel="stylesheet" href="{% static 'theme/css/style.css' %}">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="nav-left">
+            <h1>WORLD WITHOUT HUNGER</h1>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="/">home</li>
+                <li><a href="#">About us </li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="register max-width-1 m-auto">
+        <h2> DONATE MEAL</h2><br><br>
+        
+        <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HU3m0Hq37QioLu" async> </script>
+        </form>
+        
+    </div>
+    <div class="footer  ">
+        <p>Copyright &copy;feedingindia.org</p>
+        <a href="https://www.feedingindia.org/">feedingindia</a>
+    </div>
+</body>
+
+</html>
